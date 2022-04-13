@@ -1,0 +1,85 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+nav{
+   font-weight: bold;
+}
+.fo{
+   font-size: 24px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+}
+.body1{
+   background-color: #212529;
+   color: white;
+}
+.body2{
+   display: flex;
+   align-items: center;
+   
+   min-height: 100vh;
+}
+.wrapper{
+display: inline-flex;
+}
+.wrapper .static-txt{
+   font-size: 80px;
+   color: white;
+   font-weight: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrapper .dynamic-txts{
+   margin-left: 15px;
+   height: 93px;
+   line-height: 90px;
+   background: #212529;
+   overflow: hidden;
+   }
+.dynamic-txts li{
+   list-style: none;
+   font-size: 5rem;
+   color: white;
+   font-weight: bold;
+   top: 0;
+   position: relative;
+   animation: slide 6s steps(1) infinite;
+}
+@keyframes slide{
+   100%{
+     top: -360px;
+   }
+}
+.dynamic-txts li span{
+   position: relative;
+
+}
+
+
+.dynamic-txts li span::after{
+   content: " ";
+   left: 0;
+   position: absolute;
+   background: #212529;
+   width: 100%;
+   height: 100%;
+   border-left: 2px solid white;
+   animation: typing 1.32s steps(17) infinite;
+}
+@keyframes typing {
+   100%{
+      left: 100%;
+      margin: 0 -35px 0 35px;
+   }
+}
+
+
+.inner{
+   overflow: hidden;
+}
+.inner img{
+   transition: all 1.5s ease;
+}
+.inner:hover img{
+transform: scale(1.5);
+}
+h4{
+   font-family: 'Anybody', cursive;
+}

@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+     <div class="body1">
+<!-- navbar_start -->
+   <nav class="navbar navbar-dark  bg-dark fixed-top">
+      <div class="container-fluid px-3">
+        <a class="navbar-brand px-3" style="font-size: 32px;" href="#">Nisarg <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-emoji-laughing" viewBox="0 0 16 16">
+         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+         <path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+       </svg></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <h3 class="navbar-toggler-icon"></h3>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header navbar-dark bg-dark">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close text-reset bg-dark navbar-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+   
+   <div class="offcanvas-body  justify-content-center  navbar-dark bg-dark py-3 " style=" font-size: 20px;  ">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item  fo">
+                <a class="nav-link active py-3" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item  fo py-3">
+                <a class="nav-link active" aria-current="page" href="./skills.html">Skills</a>
+              </li>
+              <li class="nav-item fo py-3">
+                <a class="nav-link active" aria-current="page" href="./About.html">About Me</a>
+              </li>
+              <li class="nav-item fo py-3">
+                <a class="nav-link active" aria-current="page" href="./Contact.html">Contact Me</a>
+              </li>
+              
+                </ul>
+              </li>
+            </ul>
+            <div class="border border-5 border-light w-2 mb-3 " style="width: 10rem; px-4"></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+   
+    <br>
+    <!-- Navbar-end -->
+<!-- Home start -->
+<!-- web design -->
+    
+    
+<main id="main">
+   <!-- Hero -->
+   <div class="container py-5 py-lg-6">
+     <div class="row justify-content-center">
+       <div class="col-lg-8">
+         <h1 class="display-3">Contact us</h1>
+         <div class="border border-2 border-light w-15 my-4"></div>
+         <p class="lead text-secondary mb-4">
+           Ask us anything, or share your feedback.
+         </p>
+       </div>
+     </div>
+   </div>
+
+   <!-- Form -->
+   <section class="contact position-relative py-5">
+    <div class="container position-relative zindex-5 py-2 py-md-4 py-lg-5">
+      <div class="row justify-content-center text-center pt-xl-2 pb-4 mb-1 mb-lg-3">
+        <div class="col-xl-6 col-lg-7 col-md-8 col-sm-11">
+          <h1 class="mb-4">Let's Connect together </h1>
+          <p class="text-muted mb-0"> Just fill in&nbsp;a&nbsp;few details and we&nbsp;will get in&nbsp;touch as&nbsp;soon as&nbsp;possible.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+          <form class="row needs-validation" novalidate="">
+            <div class="col-sm-6 mb-4">
+              <label for="fn" class="form-label">First name</label>
+              <input type="text" id="fn" class="form-control" required="">
+              <div class="invalid-feedback">Please, enter your first name!</div>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <label for="ln" class="form-label">Last name</label>
+              <input type="text" id="ln" class="form-control" required="">
+              <div class="invalid-feedback">Please, enter your last name!</div>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" id="email" class="form-control" required="">
+              <div class="invalid-feedback">Please, provide a valid email address!</div>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <label for="phone" class="form-label">Phone</label>
+              <input type="text" id="phone" class="form-control" data-format="custom" data-delimiter="-" data-blocks="2 3 3" data-numeral="8" placeholder="00-000-000">
+            </div>
+            <div class="col-sm-6 mb-4">
+              <label for="city" class="form-label">City</label>
+              <select id="city" class="form-select" required="">
+                <option value="" disabled="" selected="">Choose city</option>
+                <option value="Boston">Boston</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Miami">Miami</option>
+                <option value="New York">New York</option>
+                <option value="Philadelphia">Philadelphia</option>
+              </select>
+              <div class="invalid-feedback">Please, choose your city!</div>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <label for="company" class="form-label">Your company</label>
+              <input type="text" id="company" class="form-control">
+            </div>
+            <div class="col-sm-6 mb-4">
+              <label for="position" class="form-label">Your position</label>
+              <select id="position" class="form-select">
+                <option value="Owner">Owner</option>
+                <option value="CEO">CEO</option>
+                <option value="Manager">Manager</option>
+                <option value="Accountant">Accountant</option>
+              </select>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <label for="people" class="form-label">People in company</label>
+              <select id="people" class="form-select">
+                <option value="0-10">0-10</option>
+                <option value="10-25">10-25</option>
+                <option value="25-50">25-50</option>
+                <option value="50-100">50-100</option>
+              </select>
+            </div>
+            <div class="col-12 mb-4">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" class="form-control" rows="4" required=""></textarea>
+              <div class="invalid-feedback">Please, enter your message!</div>
+            </div>
+            <div class="col-12 text-center pt-2 pt-md-3 pt-lg-4">
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary shadow-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Send A Message
+</button>
+
+<!-- Modal -->
+<div class="modal fade navbar-light bg-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog navbar-light bg-dark">
+    <div class="modal-content navbar-light bg-dark">
+      <div class="modal-header navbar-light bg-dark">
+        <h5 class="modal-title navbar-light bg-dark" id="exampleModalLabel">Your Form Is Not Submitted !!! 🤓</h5>
+        <button type="submit" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body navbar-light bg-dark" style="">
+       Sorry  😅 It Will Not Get Submitted Because it is Not Connected To database 😂
+      </div>
+      <div class="modal-footer navbar-light bg-dark">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- BG shape -->
+    <div class="position-absolute end-0 bottom-0 text-primary">
+      <svg width="469" height="343" viewBox="0 0 469 343" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.08" fill-rule="evenodd" clip-rule="evenodd" d="M273.631 680.872C442.436 768.853 639.315 708.216 717.593 558.212C795.871 408.208 732.941 212.157 564.137 124.176C395.333 36.195 198.453 96.8326 120.175 246.836C41.8972 396.84 104.827 592.891 273.631 680.872ZM236.335 752.344C440.804 858.914 688.289 788.686 789.109 595.486C889.928 402.286 805.903 159.274 601.433 52.7043C396.964 -53.8654 149.479 16.3623 48.6595 209.562C-52.1598 402.762 31.8652 645.774 236.335 752.344Z" fill="currentColor"></path><path opacity="0.08" fill-rule="evenodd" clip-rule="evenodd" d="M298.401 633.404C434.98 704.59 598.31 656.971 664.332 530.451C730.355 403.932 675.946 242.827 539.367 171.642C402.787 100.457 239.458 148.076 173.435 274.595C107.413 401.114 161.822 562.219 298.401 633.404ZM288.455 652.464C434.545 728.606 611.369 678.429 683.403 540.391C755.437 402.353 695.402 228.725 549.312 152.583C403.222 76.4404 226.398 126.617 154.365 264.655C82.331 402.693 142.365 576.321 288.455 652.464Z" fill="currentColor"></path></svg>
+    </div>
+  </section>
+ </main>
+
+
+   </div>
+   
+
+   <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="./skills.html" class="nav-link px-2 text-muted">Skills</a></li>
+      <li class="nav-item"><a href="./About.html" class="nav-link px-2 text-muted">About</a></li>
+      <li class="nav-item"><a href="./Contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Nisarg Wath</p>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
+
+
+
+
